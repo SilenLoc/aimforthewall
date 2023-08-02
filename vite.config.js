@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(() => {
   return {
+    base: '/aimforthewall/',
     build: {
       outDir: 'build',
-      base: '/aimforthewall/'
     },
     plugins: [react()],
   };
